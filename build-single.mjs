@@ -29,3 +29,4 @@ await mkdir(destination, { recursive: true });
 await writeFile(join(destination, "Oraculo-Tarot.html"), bundled, "utf8");
 
 console.log("Aplicativo único criado em dist/Oraculo-Tarot.html");
+await writeFile(join(destination, "index.html"), bundled, "utf8");
