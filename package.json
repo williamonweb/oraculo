@@ -1,0 +1,10 @@
+{
+  "name": "oraculo-tarot",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "node build-single.mjs"
+  }
+}

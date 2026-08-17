@@ -1,0 +1,5 @@
+assets/cards/
+dist/
+*.zip
+node_modules/
+.DS_Store
